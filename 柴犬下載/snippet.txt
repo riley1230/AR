@@ -1,0 +1,14 @@
+<model-viewer src="柴下載.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.00027443779595940075m 0.019826630677234017m 0.012730021506135364m" data-normal="0.07013236725791172m 0.8472419103094707m 0.5265573059771943m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">柴犬</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
